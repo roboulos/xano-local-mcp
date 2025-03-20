@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "xano-mcp-server"
+version = "0.1.0"
+description = "Xano MCP Server for Claude"
+requires-python = ">=3.8"
+dependencies = [
+    "httpx>=0.25.0",
+]
+
+[tool.setuptools]
+py-modules = ["xano_mcp_server"]
